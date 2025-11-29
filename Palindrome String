@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char s[100], rs[100];
+    gets(s);
+    strcpy(rs, s);
+    strrev(rs);
+    if(strcmp(s, rs)==0) printf("Palindrome");
+    else printf("Not Palindrome");
+}
