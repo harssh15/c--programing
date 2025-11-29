@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() 
+{ int n;
+printf("enter number");
+scanf("%d", &n);
+switch(n)
+{ case 1:printf("hello");
+case 2: printf("hi");
+case 3: printf ("bye");
+default: printf("good");
+
+}
+
+}
