@@ -1,0 +1,17 @@
+//arrays are 
+//-> data structure 
+//-> homogeneous data types 
+//-> continous\ contiguous memory location. 
+#include<stdio.h>
+int main()
+{
+	int swre[4] = { 85, 90, 92, 82};
+	int sum =0;
+	int i = 0;
+	for (i=0; i<4; i++ )
+	{ sum+=swre[i];
+	}
+	printf("sum of sware%d \n", sum);
+	swre[1]=90;
+	printf("new swre:%d\n",swre[1]);
+}
