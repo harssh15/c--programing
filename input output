@@ -1,0 +1,20 @@
+// STRUCT STUDENT CODE
+#include <stdio.h>
+
+struct student {
+    int roll;
+    float marks;
+};
+
+int main() {
+    struct student S1, S2;
+    
+    printf("Enter roll number and marks: ");
+    scanf("%d %f", &S1.roll, &S1.marks);
+
+    S2 = S1;
+
+    printf("\nRoll: %d, Marks: %f\n", S2.roll, S2.marks);
+
+    return 0;
+}
